@@ -32,11 +32,11 @@ La evaluación se realiza usando el método .val() de cada modelo, recuperando m
 
 El código permite evaluar cada modelo sobre los conjuntos de validación y prueba configurados en el yaml.
 
-Cómo generar la tabla y el gráfico de métricas
+# Cómo generar la tabla y el gráfico de métricas
 Se extraen las métricas obtenidas para cada modelo y se consolidan en un DataFrame de pandas.
 
 Con matplotlib se grafica cada métrica comparando los tres modelos, facilitando la visualización de su desempeño relativo.
 
-La tabla imprimida y el gráfico permiten identificar el modelo con mejor balance en métricas clave para la tarea de detección de señales.
+La tabla impresa y el gráfico permiten identificar el modelo con mejor balance en métricas clave para la tarea de detección de señales.
 
 Este README resume el uso básico para desplegar el proyecto, desde la carga del dataset hasta la comparación gráfica del desempeño de modelos YOLOv8 variantes, facilitando su reproducción y análisis.
